@@ -6,22 +6,22 @@
 </p>
 
 <p align="center">
-  <a href="#-项目">项目</a> ·
-  <a href="#-为什么开源">为什么开源</a> ·
-  <a href="#-联系与合作">联系与合作</a>
+  <a href="#项目">项目</a> ·
+  <a href="#为什么开源">为什么开源</a> ·
+  <a href="#联系与合作">联系与合作</a>
 </p>
 
 ---
 
-## 🔧 项目
+## 项目
 
 ### 星课 StarClass — 给小型教培机构的一套完整管理系统
 
-> **一次部署，长期使用。不年费、不限人数、学员数据留在你自己的机器里。**
+> **一次部署，长期使用。不收年费，不限人数，学员数据留在你自己的机器里。**
 
-招生、排课、考勤、家校沟通、销售、续费、薪资结算，一套系统全包。Vue3 + Express + SQLite，零云服务依赖，一条命令跑起来。
+招生、排课、考勤、家校沟通、销售续费、薪资结算，一套系统全包。Vue3 + Express + SQLite，不依赖任何云服务，一条命令跑起来。
 
-这不是「技术 demo」，是按生产标准写的：**34 套自动化回归测试**（覆盖支付幂等、退款回收、跨角色越权、审计留痕、口径一致性），CI 在 Node 18/20/22 三个版本全绿，含部署前自动备份与健康检查。
+它按生产标准写，可以直接拿去用：**34 套自动化回归测试**覆盖支付幂等、退款回收、跨角色越权、审计留痕和口径一致性，CI 在 Node 18/20/22 三个版本全绿，部署前自动备份，装完做健康检查。
 
 | | |
 |---|---|
@@ -32,15 +32,15 @@
 
 `git clone https://github.com/Hoodas101/starclass.git && cd starclass && bash deploy.sh`
 
-👉 [**查看项目**](https://github.com/Hoodas101/starclass)
+[**查看项目**](https://github.com/Hoodas101/starclass)
 
 ---
 
-### LidKeep — 关掉屏幕，但别让 Mac 睡
+### LidKeep — 关掉屏幕，机器照常跑
 
-> **只关背光，从不让显示器睡眠 —— 远程端看到的始终是真实画面，而不是一片黑。**
+> **只关背光，显示器从不进入睡眠。远程端看到的还是真实画面。**
 
-macOS 把「屏幕灭」和「机器睡」绑在一起。LidKeep 把它们拆开：屏幕全黑省电，但机器继续跑 —— 远程桌面不断线、下载不断、构建不断、SSH 一直可用，合盖也能继续。
+macOS 把「屏幕灭」和「机器睡」绑成了一件事，LidKeep 把它们拆开：屏幕全黑省电，机器继续跑。远程桌面不掉线，下载和构建不受影响，SSH 一直在，合盖也一样。
 
 一行安装 · 零第三方依赖 · 无账号无遥测 · MIT 开源 · 中文文档齐全。
 
@@ -53,13 +53,13 @@ macOS 把「屏幕灭」和「机器睡」绑在一起。LidKeep 把它们拆开
 | 🔌 电源计划 | 插电与电池分别配置，拔电源自动切换（同 Windows 电源选项模型） |
 | 📖 文档 | [详细说明](https://github.com/Hoodas101/lidkeep/blob/main/docs/DETAILS.zh-CN.md) · [配置项](https://github.com/Hoodas101/lidkeep/blob/main/docs/CONFIG.md) · [场景配方](https://github.com/Hoodas101/lidkeep/blob/main/docs/COOKBOOK.md) |
 
-👉 [**Releases / 下载**](https://github.com/Hoodas101/lidkeep/releases/latest) · [**中文说明**](https://github.com/Hoodas101/lidkeep/blob/main/README.zh-CN.md)
+[**Releases / 下载**](https://github.com/Hoodas101/lidkeep/releases/latest) · [**中文说明**](https://github.com/Hoodas101/lidkeep/blob/main/README.zh-CN.md)
 
 ---
 
 ### 给 AI Agent 的两套「思考质量」skill
 
-> 让 AI 不只是回答，而是**先检查推理、再给结论**。
+> 让 AI 先检查自己的推理，再给结论。
 
 | Skill | 做什么 | 已有内容 |
 |---|---|---|
@@ -68,7 +68,7 @@ macOS 把「屏幕灭」和「机器睡」绑在一起。LidKeep 把它们拆开
 
 两套编号互通（如沉没成本 = TM#1 = BC#29），可单用也可组合。跨平台：Claude Code / Cursor / Codex / Cline / Continue。
 
-**它们对「模型证据强度」逐条标注**：25 个学术共识 / 9 个实证支持 / 14 个经验总结 / 6 个隐喻借用 / 2 个有争议 —— 越听起来深刻的模型往往证据越薄，这一点我们明说。
+**它们对「模型证据强度」逐条标注**：25 个学术共识 / 9 个实证支持 / 14 个经验总结 / 6 个隐喻借用 / 2 个有争议。越听起来深刻的模型往往证据越薄，这一点我们明说。
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/Hoodas101/thinking-models/main/install.sh | bash
@@ -77,23 +77,23 @@ curl -fsSL https://raw.githubusercontent.com/Hoodas101/bias-correction/main/inst
 
 ---
 
-## 💡 为什么开源
+## 为什么开源
 
 我做的每一个项目，起点都是「我自己需要」：机构管不过来 → 写 StarClass；远程用的 Mac 一熄屏就断线 → 写 LidKeep；AI 回答看着对但经不起追问 → 写思维模型 skill。
 
-既然要写，就按能长期用、能交给别人用的标准写。所以这些仓库里有 CI、有回归测试、有变更日志、有排障文档 —— 这不是给面试官看的装饰，是因为我自己每天在用。
+既然要写，就按能长期用、能交给别人用的标准写。这些仓库里的 CI、回归测试、变更日志和排障文档，都是我自己每天在用的东西。
 
 ---
 
-## 📮 联系与合作
+## 联系与合作
 
-- **StarClass 三端小程序 · 部署服务 · 机构定制** —— 欢迎在 [StarClass Issues](https://github.com/Hoodas101/starclass/issues) 留言咨询（中文即可，首次咨询免费评估是否适合）
+- **StarClass 三端小程序 · 部署服务 · 机构定制**，欢迎在 [StarClass Issues](https://github.com/Hoodas101/starclass/issues) 留言咨询（中文即可，首次咨询免费评估是否适合）
 - 发现问题请开 Issue，**每个报告我都会看**，多数修复在几天内落地
-- 项目帮到你了？点个 ⭐ 是成本最低、帮助最大的支持方式；想再进一步可以走 [GitHub Sponsors](https://github.com/sponsors/Hoodas101)
+- 项目帮到你了？点个 Star 是成本最低、帮助最大的支持方式；想再进一步可以走 [GitHub Sponsors](https://github.com/sponsors/Hoodas101)
 
 <p align="center">
   <sub>
-    如果你也在教育行业写代码，或者想给自己的机构做一套系统 —— 随时聊聊。<br>
+    如果你也在教育行业写代码，或者想给自己的机构做一套系统，随时聊聊。<br>
     StarClass · LidKeep · thinking-models · bias-correction
   </sub>
 </p>
