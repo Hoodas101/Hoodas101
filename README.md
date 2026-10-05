@@ -1,4 +1,4 @@
-<h1 align="center">Hoodas 🖋️</h1>
+<h1 align="center">Hoodas </h1>
 
 <p align="center">
   <b>教育行业从业者 · 独立开发者</b><br>
