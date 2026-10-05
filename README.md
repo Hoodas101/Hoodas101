@@ -1,4 +1,4 @@
-<h1 align="center">Hoodas </h1>
+<h1 align="center">Hoodas</h1>
 
 <p align="center">
   <b>教育行业从业者 · 独立开发者</b><br>
@@ -36,11 +36,11 @@
 
 ---
 
-### LidKeep — 关掉屏幕，但别让 Mac 睡着
+### LidKeep — 关掉屏幕，但别让 Mac 睡
 
-> **只切背光，不进入显示器睡眠 —— 所以远程桌面看到的永远是真实画面，而不是黑屏。**
+> **只关背光，从不让显示器睡眠 —— 远程端看到的始终是真实画面，而不是一片黑。**
 
-macOS 把「熄屏」和「系统睡眠」绑在一起。LidKeep 把它们拆开：屏幕全黑省电，但机器继续跑 —— 远程桌面不断线、下载不断、构建不断、SSH 一直可用，合盖也能继续。
+macOS 把「屏幕灭」和「机器睡」绑在一起。LidKeep 把它们拆开：屏幕全黑省电，但机器继续跑 —— 远程桌面不断线、下载不断、构建不断、SSH 一直可用，合盖也能继续。
 
 一行安装 · 零第三方依赖 · 无账号无遥测 · MIT 开源 · 中文文档齐全。
 
@@ -51,7 +51,7 @@ macOS 把「熄屏」和「系统睡眠」绑在一起。LidKeep 把它们拆开
 | ⌨️ 热键 | ⌃⌥⌘B 一键熄屏 / 恢复 |
 | 💻 CLI | `lidkeep off` / `on` / `status` / `doctor` / `plan` |
 | 🔌 电源计划 | 插电与电池分别配置，拔电源自动切换（同 Windows 电源选项模型） |
-| 📖 文档 | [详细说明](https://github.com/Hoodas101/lidkeep/blob/main/docs/DETAILS.md) · [配置项](https://github.com/Hoodas101/lidkeep/blob/main/docs/CONFIG.md) · [场景配方](https://github.com/Hoodas101/lidkeep/blob/main/docs/COOKBOOK.md) |
+| 📖 文档 | [详细说明](https://github.com/Hoodas101/lidkeep/blob/main/docs/DETAILS.zh-CN.md) · [配置项](https://github.com/Hoodas101/lidkeep/blob/main/docs/CONFIG.md) · [场景配方](https://github.com/Hoodas101/lidkeep/blob/main/docs/COOKBOOK.md) |
 
 👉 [**Releases / 下载**](https://github.com/Hoodas101/lidkeep/releases/latest) · [**中文说明**](https://github.com/Hoodas101/lidkeep/blob/main/README.zh-CN.md)
 
@@ -89,7 +89,7 @@ curl -fsSL https://raw.githubusercontent.com/Hoodas101/bias-correction/main/inst
 
 - **StarClass 三端小程序 · 部署服务 · 机构定制** —— 欢迎在 [StarClass Issues](https://github.com/Hoodas101/starclass/issues) 留言咨询（中文即可，首次咨询免费评估是否适合）
 - 发现问题请开 Issue，**每个报告我都会看**，多数修复在几天内落地
-- 项目帮到你了？点个 ⭐ 是成本最低、帮助最大的支持方式
+- 项目帮到你了？点个 ⭐ 是成本最低、帮助最大的支持方式；想再进一步可以走 [GitHub Sponsors](https://github.com/sponsors/Hoodas101)
 
 <p align="center">
   <sub>
